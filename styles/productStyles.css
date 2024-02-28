@@ -55,7 +55,7 @@ main {
   top: 50%;
   left: 3rem;
   transform: translateY(-50%);
-  font: 400 0.85rem helvetica,sans-serif;
+  font: 400 1.2rem helvetica,sans-serif;
   color: white;
   text-shadow: 0 3px 8px rgba(0,0,0,0.5);
   opacity: 0;
@@ -64,12 +64,13 @@ main {
   & .dat__product__title {
     font-family: 'arial-black';
     text-transform: uppercase;
+    font-size: 2rem;
   }
 
   & .dat__product__description {
     line-height: 1.7;
     margin: 1rem 0 1.5rem;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
   }
 
   & button {
